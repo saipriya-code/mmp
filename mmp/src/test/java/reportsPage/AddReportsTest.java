@@ -19,6 +19,7 @@ public class AddReportsTest {
 	WebDriver driver;
 	HashMap<String, String> hMap = new HashMap<String, String>();
 	
+	// testing using parameters from testng.xml
 	@Parameters({"adminId","adminPwd","adminLoginURL"})
 	@Test(priority=1)
 	public void testAddReport(String id, String pwd, String adminURL) throws AWTException, InterruptedException {
