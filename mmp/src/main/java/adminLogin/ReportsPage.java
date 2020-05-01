@@ -36,7 +36,7 @@ public class ReportsPage {
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		return hMap;
 	}
-
+// change code
 	private void uploadFile(String path) throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("file")));
@@ -53,17 +53,17 @@ public class ReportsPage {
 			e.printStackTrace();
 		}
 		robot.delay(300);
-		robot.keyPress(KeyEvent.VK_ENTER);
-	     robot.keyRelease(KeyEvent.VK_ENTER);
+		//robot.keyPress(KeyEvent.VK_ENTER);
+	    //robot.keyRelease(KeyEvent.VK_ENTER);
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_V);
         Thread.sleep(500);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
+        //robot.keyRelease(KeyEvent.VK_V);
+        //robot.keyRelease(KeyEvent.VK_CONTROL);
         Thread.sleep(500);
         robot.keyPress(KeyEvent.VK_ENTER);
         Thread.sleep(500);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+        //robot.keyRelease(KeyEvent.VK_ENTER);
         Thread.sleep(500);
 		Thread.sleep(500);
 			
