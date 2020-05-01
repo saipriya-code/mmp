@@ -16,6 +16,7 @@ public class PatientRegistrationTest {
 	WebDriver driver;
 	HashMap<String, String> hMap = new HashMap<String, String>();
 
+	// testing registration
 	@Test
 	public void testRegister() throws InterruptedException{
 		driver = HelperMethods.launchBrowser("http://96.84.175.78/MMP-Release2-Integrated-Build.6.8.000/portal/login.php");
